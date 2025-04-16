@@ -34,7 +34,7 @@ const Page = () => {
         backgroundImage: "url('/images/fundo.png')",
       }}
     >
-      <div className=" mt-4 w-2/3 min-h-full bg-cover bg-center pb-20 bg-gray-300">
+      <div className=" mt-4 w-2/3 min-h-full bg-cover bg-center pb-20 bg-white">
         <div className="w-full h-10 bg-black justify-center flex">
           <div className="w-44 h-14 rounded-b-4xl bg-black justify-center flex items-center">
             <h1 className="uppercase">pokedex</h1>
@@ -49,14 +49,14 @@ const Page = () => {
         <div className="w-full  flex mt-16 justify-center items-center gap-5 text-black ">
           <button
             onClick={handlePreview}
-            className="border inline-block py-1 px-3 rounded-md hover:bg-white"
+            className="border inline-block py-1 px-3 rounded-md hover:scale-110"
           >
             voltar
           </button>
           <p>{page + 1}</p>
           <button
             onClick={handleNext}
-            className="border inline-block py-1 px-3 rounded-md hover:bg-white"
+            className="border inline-block py-1 px-3 rounded-md hover:scale-110"
           >
             avante
           </button>
