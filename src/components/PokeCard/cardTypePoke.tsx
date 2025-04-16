@@ -4,7 +4,7 @@ type Props = {
 export const CardTypePoke = ({ name }: Props) => {
   return (
     <p
-      className={` mt-4 inline-block px-3 uppercase text-white text-xs
+      className={` mt-4 inline-block px-4 py-1 uppercase text-white text-xs
     ${name === "normal" && "bg-amber-800 border-amber-800 border rounded-sm"}
     ${name === "fighting" && "bg-red-600 border border-red-600 rounded-sm"}
     ${name === "flying" && "bg-gray-500 border border-gray-500 rounded-sm"}
